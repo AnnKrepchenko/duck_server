@@ -23,7 +23,7 @@ jar {
     version = '0.0.1'
     manifest {
         attributes(
-                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Class-Path': configurations.compile { it.getName() }.join(' '),
                 'Main-Class': 'main'
         )
     }
