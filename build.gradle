@@ -21,6 +21,12 @@ apply plugin: 'kotlin'
 jar {
     baseName = 'duck_server'
     version = '0.0.1'
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'main'
+        )
+    }
 }
 
 sourceCompatibility = 1.8

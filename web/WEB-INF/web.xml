@@ -5,8 +5,8 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
     <servlet>
-        <display-name>Ktor Auth Sample</display-name>
-        <servlet-name>KtorAuthSample</servlet-name>
+        <display-name>Duck server</display-name>
+        <servlet-name>Duck server</servlet-name>
         <servlet-class>io.ktor.server.servlet.ServletApplicationEngine</servlet-class>
         <multipart-config>
             <!-- 100mb max file upload -->
