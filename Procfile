@@ -1,1 +1,1 @@
-web: java -jar build/libs/duck_server-0.0.1jar
+web: java -jar build/libs/duck_server-0.0.1.jar
