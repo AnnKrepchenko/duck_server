@@ -1,0 +1,5 @@
+{
+  "name": "Duck server: Kotlin",
+  "description": "A barebones Kotlin app, which can easily be deployed to Heroku.",
+  "addons": [ "heroku-postgresql" ]
+}
