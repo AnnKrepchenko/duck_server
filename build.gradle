@@ -23,8 +23,7 @@ jar {
     version = '0.0.1'
     manifest {
         attributes(
-                'Class-Path': configurations.compile,
-                'Main-Class': 'Main.kt'
+                'Class-Path': configurations.compile
         )
     }
 }
