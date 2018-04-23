@@ -26,12 +26,6 @@ apply plugin: 'org.springframework.boot'
 jar {
     baseName = 'duck_server'
     version = '0.0.1'
-    manifest {
-        attributes(
-                'Class-Path': configurations.compile,
-                'Main-Class': 'io.ktor.samples.Application'
-        )
-    }
 }
 mainClassName = 'io.ktor.samples.Application'
 
