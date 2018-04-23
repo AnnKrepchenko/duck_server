@@ -27,7 +27,6 @@ jar {
     baseName = 'duck_server'
     version = '0.0.1'
 }
-mainClassName = 'io.ktor.samples.Application'
 
 sourceCompatibility = 1.8
 compileKotlin {
